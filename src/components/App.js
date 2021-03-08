@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "./Header";
 
 function App() {
     
     return(
-        <h1>Booktracker</h1>
+        <div className="big-container">
+            <Header
+            />
+        </div> 
     )
 }
 
